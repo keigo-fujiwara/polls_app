@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.vote-form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.vote-question {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(44, 62, 80);
+    text-align: center;
+}
+
+.error-message {
+    color: rgb(231, 76, 60);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.choice-option {
+    margin: 10px 0;
+}
+
+.choice-option input[type="radio"] {
+    margin-right: 8px;
+    accent-color: rgb(46, 204, 113);
+}
+
+.vote-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: rgb(46, 204, 113);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
