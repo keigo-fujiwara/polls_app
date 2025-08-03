@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>投票アプリ</title>
+    <link rel="stylesheet" href="{% static 'main/css/results.css' %}">
+</head>
+<body>
+    <div class="results-container">
+        <h1 class="results-title">{{ question.question_text }}</h1>
+
+        <ul class="results-list">
+        {% for choice in question.choices.all %}
+            <li class="result-item">
+                {{ choice.choice_text }}：<span class="vote-count">{{ choice.votes }}</span> 票
+            </li>
+        {% endfor %}
+        </ul>
+
+        <a class="retry-link" href="{% url 'detail' question.id %}">もう一度投票する</a>
+    </div>
+</body>
+</html>

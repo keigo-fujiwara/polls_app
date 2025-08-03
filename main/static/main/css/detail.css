@@ -35,7 +35,7 @@ body {
 
 .vote-button {
     display: block;
-    width: 100%;
+    width: 800px;
     padding: 12px;
     margin-top: 20px;
     background-color: rgb(46, 204, 113);
@@ -44,4 +44,14 @@ body {
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
+}
+
+.top-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(52, 152, 219);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
 }

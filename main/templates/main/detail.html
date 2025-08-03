@@ -3,7 +3,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>main アプリケーション</title>
+    <title>投票アプリ</title>
     <link rel="stylesheet" href="{% static 'main/css/detail.css' %}">
 </head>
 <body>
@@ -24,6 +24,7 @@
             {% endfor %}
         </div>
         <input class="vote-button" type="submit" value="Vote">
+        <a class="top-link" href="{% url 'index' %}">TOP</a>
     </form>
 </body>
 </html>
