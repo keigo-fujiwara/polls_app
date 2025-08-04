@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.results-container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.results-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(44, 62, 80);
+    text-align: center;
+}
+
+.results-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.result-item {
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    font-size: 20px;
+}
+
+.result-item:last-child {
+    border-bottom: none;
+}
+
+.vote-count {
+    font-weight: bold;
+    color: rgb(39, 174, 96);
+}
+
+.retry-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(52, 152, 219);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-decoration: none;
+}
