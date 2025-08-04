@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.index-container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.question-list {
+    list-style: none;
+}
+
+.question-item {
+    padding: 12px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.question-link {
+    text-decoration: none;
+    color: rgb(52, 152, 219);
+    font-size: 20px;
+}
+
+.no-questions {
+    text-align: center;
+    color: rgb(136, 136, 136);
+    font-size: 20px;
+}
